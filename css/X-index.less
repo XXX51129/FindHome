@@ -1,0 +1,265 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+// nav上图片
+.X-nav-topPicure {
+    width: 100%;
+    height: 17rem;
+    background: url(../image/index/banner.png) no-repeat;
+    background-size: 100% 17rem;
+
+    .X-search {
+        width: 80%;
+        height: 2rem;
+        margin-left: 10%;
+        margin-top: 14rem;
+        font-size: 1.1rem;
+        box-sizing: border-box;
+        border: .1rem solid rgb(76, 76, 76);
+        border-radius: .5rem;
+        background: url(../image/index/seach.jpg) no-repeat;
+        padding: 0rem 0rem 0rem 2rem;
+        background-size: 2rem 2rem;
+    }
+}
+
+// 导航栏
+nav {
+    width: 100%;
+    background-color: rgb(255, 138, 0);
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        color: #fff;
+        width: 15%;
+        height: 6.5rem;
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 3.5rem;
+                margin: .5rem 0rem;
+            }
+        }
+    }
+}
+
+// nav下图片
+.X-nav-bottomPicure {
+    width: 100%;
+    height: 19.5rem;
+    // background-color: rgb(245, 245, 245);
+
+    img {
+        margin-top: .6rem;
+        width: 100%;
+        height: 18rem;
+    }
+}
+
+// 热门房源
+.X-hot-house {
+    width: 100%;
+
+    // 热门房源 标题  
+    .X-hot-house-title {
+        width: 100%;
+        height: 4rem;
+        background-color: rgb(255, 138, 0);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            height: 1.5rem;
+            line-height: 1.5rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-left: 1.5rem;
+        }
+    }
+
+    // 热门房源 房子
+    .X-hot-house-contents {
+        background-color: #fff;
+        width: 100%;
+        margin-bottom: .6rem;
+        border-bottom: .1rem solid rgb(229, 229, 229);
+
+        .X-hot-house-content {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem 5% 1.5rem 5%;
+
+            .X-hot-house-picture {
+                width: 9rem;
+
+                img {
+                    width: 8rem;
+                    height: 7.5rem;
+                }
+            }
+
+            .X-hot-house-introduce {
+                width: 12rem;
+                height: 7.5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                a {
+                    p {
+                        width: 12rem;
+                        height: 1.8rem;
+                        line-height: 1.8rem;
+                        font-size: 1.3rem;
+                        overflow: hidden;
+                        // 规定段落中的文本不进行换行
+                        white-space: nowrap;
+                        // 多行文本溢出省略号
+                        text-overflow: ellipsis;
+                    }
+                }
+
+                >div:nth-of-type(1) {
+                    height: 1.7rem;
+                    line-height: 1.7rem;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .X-hot-house-construction {
+                        font-size: .9rem;
+                        font-weight: 550;
+                    }
+
+                    .X-hot-house-prices {
+                        font-size: 1rem;
+                        font-weight: 600;
+                        color: rgb(255, 138, 0);
+                    }
+                }
+
+                >div:nth-of-type(2) {
+                    height: 1.7rem;
+                    line-height: 1.7rem;
+                    display: flex;
+                    justify-content: space-between;
+
+                    >span {
+                        color: rgb(129, 129, 129);
+                    }
+
+                    .X-hot-house-location {
+                        font-size: .9rem;
+                    }
+
+                    .X-hot-house-centiare-prices {
+                        font-size: .92rem;
+                    }
+                }
+
+                >.X-hot-house-label {
+                    width: 12rem;
+                    height: 1.7rem;
+                    line-height: 1.7rem;
+                    display: flex;
+                    overflow: hidden;
+                    // 规定段落中的文本不进行换行
+                    white-space: nowrap;
+                    // 多行文本溢出省略号
+                    text-overflow: ellipsis;
+
+                    >span {
+                        margin-right: .5rem;
+                        font-size: .85rem;
+                        height: 1.3rem;
+                        line-height: 1.3rem;
+                        padding-left: 0.3rem;
+                        padding-right: 0.3rem;
+                        background-color: rgb(244, 247, 249);
+                        color: rgb(141, 173, 198);
+                    }
+                }
+            }
+        }
+
+        hr {
+            background-color: rgb(255, 25, 25);
+            width: 90%;
+            margin-left: 5%;
+        }
+    }
+}
+
+// 热门关注&友情链接 
+.X-hotAttention-or-friendLink {
+    border-top: .1rem solid rgb(229, 229, 229);
+    background-color: #fff;
+
+    // 热门关注&友情链接  标题
+    .X-hotAttention-or-friendLink-title {
+        width: 100%;
+        height: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            width: 50%;
+            box-sizing: border-box;
+            height: 3.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: .1rem solid rgb(255, 138, 0);
+
+            span {
+                display: flex;
+                justify-content: center;
+                font-size: 1.5rem;
+                color: rgb(103, 103, 103);
+            }
+        }
+
+        .X-hotAttention-nowTitle {
+            border-bottom: .2rem solid rgb(255, 138, 0);
+
+            span {
+                color: rgb(255, 138, 0);
+            }
+        }
+    }
+
+    // 热门关注 内容
+    .X-hotAttention-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        a {
+            width: 35%;
+            box-sizing: border-box;
+            height: 2.5rem;
+            display: flex;
+            align-items: center;
+
+            span {
+                display: flex;
+                justify-content: center;
+                font-size: 1rem;
+                color: rgb(82, 82, 82);
+            }
+        }
+    }
+}
+
+// 免费下载APP
