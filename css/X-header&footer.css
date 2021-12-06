@@ -38,6 +38,9 @@ footer {
   background-color: #2f3130;
   color: #959595;
 }
+footer a {
+  color: #959595;
+}
 footer .X-footerTitle {
   height: 1.5rem;
   line-height: 2rem;
