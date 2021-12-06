@@ -18,13 +18,13 @@ body {
 }
 
 .secondSearch {
-    width: 24rem;
+    width: 21rem;
     margin: 1rem auto;
     position: relative;
 }
 
 .secondSearch input {
-    width: 24rem;
+    width: 21rem;
     height: 3rem;
     border-radius: 4px;
     outline: none;
@@ -61,7 +61,7 @@ body {
     border-top: 1px solid #ccc;
     display: flex;
     justify-content: space-around;
-    font-size: 1rem;
+    font-size: 0.8rem;
     z-index: 4;
     position: relative;
     background: #FFF;
@@ -131,9 +131,10 @@ body {
     z-index: 10;
 }
 
-.someList li {
-    /*display: none;   /!*接口*!/*/
-}
+
+/* .someList li {
+    display: none;   /!*接口*!/
+} */
 
 .area {
     display: flex;
@@ -328,12 +329,12 @@ body {
 }
 
 .secondContent {
-    padding: 0 2rem;
-    font-size: 1.2rem;
+    padding: 0 1.5rem;
+    font-size: 1rem;
 }
 
 .secondContent li {
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-bottom: 1px solid #ff8a00;
     display: flex;
     justify-content: space-between;
@@ -350,19 +351,20 @@ body {
 }
 
 .secondContent .right {
-    width: 18.7rem;
+    width: 16rem;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: clip;
 }
 
 .secondContent .right h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .secondContent .right p {
     color: #b0b0b0;
-    line-height: 2.1rem;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
 }
 
 .secondContent .right p:first-of-type {
@@ -372,4 +374,24 @@ body {
 
 .secondContent .right strong {
     color: #ff8a00;
+    font-size: 0.9rem;
+}
+
+.retalCont1 {
+    line-height: 1.5rem;
+    overflow: hidden;
+    margin-top: 0.8rem;
+}
+
+.retalCont1 span {
+    color: #6da719;
+    float: left;
+    padding: 0 0.5rem;
+    border: 1px solid #6da719;
+    border-radius: 2px;
+    font-size: 0.9rem;
+}
+
+.retalCont1 strong {
+    float: right;
 }
