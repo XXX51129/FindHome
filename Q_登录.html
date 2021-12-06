@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>登录界面</title>
     <link rel="stylesheet" href="./css/Q_登录.css">
     <script src=""></script>
     <script>
@@ -60,17 +60,5 @@
 
 </html>
 
-<script>
-    function setRem() {
-        var ui_w = 375;
-        /* 获取屏幕的宽度 */
-        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
-        console.log(ui_w, clientWidth);
-
-        /* 通过js动态改变html根节点字体大小 */
-        var html_ = document.getElementsByTagName('html')[0];
-        html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
-    }
-    /* window.onresize 浏览器被重置大小执行事件 */
-    window.onresize = setRem;
-</script>
+<!-- 动态改变字体大小 -->
+<script src="./js/动态改变字体大小.js"></script>
