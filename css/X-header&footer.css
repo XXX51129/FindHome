@@ -45,7 +45,7 @@ footer .X-footerTitle {
 }
 footer > hr {
   width: 90%;
-  text-align: center;
+  margin-left: 5%;
 }
 footer .X-App-icon {
   display: flex;
