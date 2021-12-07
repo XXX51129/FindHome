@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>验证码快捷登录</title>
+    <link rel="stylesheet" href="./css/Q_验证码快捷登录.css">
+    <link rel="stylesheet" href="./css/X-reset.css">
+    <link rel="stylesheet" href="./css/X-header&footer.css">
+    <script src=""></script>
+    <!-- 动态改变字体大小 -->
+    <script src="./js/动态改变字体大小.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="X-header">
+        <div class="X-logo"></div>
+        <div class="X-header-right">
+            <div class="X-my"></div>
+            <div class="X-download"></div>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <section class="rentalAddr">
+        <p><strong>首页</strong> > <span>我的</span> > <span>登录</span></p>
+    </section>
+
+    <section class="registerForm login">
+        <form action="#">
+            <ul class="title">
+                <li>普通登录</li>
+                <li class="active">验证码快捷登录</li>
+            </ul>
+            <div class="fastLogin">
+                <ul>
+                    <li class="mima">
+                        <input type="text" placeholder="请输入手机号码" />
+                        <a id="code" href="#">发送验证码</a>
+                    </li>
+                    <li><input type="text" placeholder="请输入短信中的验证码" /></li>
+                </ul>
+                <input class="registerBtn" type="submit" value="验证并登录" />
+                <div class="tiShi">
+                    <a href="#">立即注册</a>
+                    <a href="#">忘记密码</a>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
