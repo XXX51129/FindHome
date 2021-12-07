@@ -1,0 +1,592 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+// 房间展示
+.X-SecondHandHome-show {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    border: .1rem solid rgb(229, 229, 229);
+    border-top: none;
+
+    // 房间展示 图片
+    .X-SecondHandHome-show-picture {
+        width: 100%;
+        height: 16rem;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 16rem;
+        }
+
+        span {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.4);
+            text-align: center;
+            color: #fff;
+            z-index: 2;
+            width: 2.7rem;
+            height: 1.2rem;
+            border-radius: .4rem;
+            font-size: .9rem;
+            bottom: 0.5rem;
+            right: 0.3rem;
+        }
+
+    }
+
+    // 房间展示 内容
+    .X-SecondHandHome-show-contents {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 1rem;
+
+        >div {
+            height: 2.5rem;
+            line-height: 2.5rem;
+        }
+
+        .X-SecondHandHome-show-title {
+            height: 4rem;
+            line-height: 2rem;
+            font-size: 1.35rem;
+            font-weight: 600;
+        }
+
+        .X-SecondHandHome-show-price {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-size: 1.1rem;
+
+                .X-SecondHandHome-show-total-price {
+                    font-weight: 600;
+                    color: rgb(219, 75, 61);
+                }
+            }
+
+            .X-SecondHandHome-show-relation {
+                box-sizing: border-box;
+                width: 1rem;
+                height: 1.4rem;
+                background: url(../image/SecondHandList/phone.png) no-repeat;
+                background-size: 1rem 1.4rem;
+            }
+        }
+
+        .X-SecondHandHome-show-time {
+            color: rgb(186, 182, 179);
+            font-size: 1rem;
+        }
+
+        .X-SecondHandHome-show-label {
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+            // 规定段落中的文本不进行换行
+            white-space: nowrap;
+            // 多行文本溢出省略号
+            text-overflow: ellipsis;
+
+            >span {
+                margin-right: .5rem;
+                font-size: .85rem;
+                height: 1.5rem;
+                line-height: 1.5rem;
+                padding-left: 0.4rem;
+                padding-right: 0.4rem;
+                background-color: rgb(222, 233, 240);
+                color: rgb(136, 156, 175);
+            }
+        }
+    }
+}
+
+// 房间详情
+.X-SecondHandHome-particulars {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1rem;
+    border: .1rem solid rgb(229, 229, 229);
+    display: flex;
+    flex-direction: column;
+
+    p {
+        width: 90%;
+        margin-left: 5%;
+        height: 3rem;
+        line-height: 3rem;
+        border-bottom: .01rem solid rgb(186, 182, 179);
+        display: flex;
+        font-size: 1rem;
+
+        span {
+            width: 50%;
+        }
+    }
+
+    // 更多
+    a {
+        p {
+            border: none;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+            color: rgb(143, 140, 138);
+        }
+    }
+}
+
+// 房源特色
+.X-SecondHandHome-feature {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 1rem;
+    border: .1rem solid rgb(229, 229, 229);
+    background-color: #fff;
+
+    >div {
+        width: 90%;
+        margin-left: 5%;
+        border-bottom: .01rem solid rgb(186, 182, 179);
+    }
+
+    // 房源特色 标题
+    .X-SecondHandHome-feature-title {
+        font-size: 1.5rem;
+        height: 4rem;
+        line-height: 4rem;
+        color: rgb(219, 75, 61);
+    }
+
+    // 房源特色 内容
+    .X-SecondHandHome-feature-contents {
+        box-sizing: border-box;
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    // 房源特色 more
+    a {
+        >.X-more-feature {
+            height: 3rem;
+            line-height: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.1rem;
+            color: rgb(143, 140, 138);
+        }
+    }
+}
+
+// 户型分间
+.X-SecondHandHome-type {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 1rem;
+    border: .1rem solid rgb(229, 229, 229);
+    background-color: #fff;
+
+    >div {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    // 户型分间 标题
+    .X-SecondHandHome-type-title {
+        font-size: 1.5rem;
+        height: 4rem;
+        line-height: 4rem;
+        color: rgb(219, 75, 61);
+        border-bottom: .01rem solid rgb(186, 182, 179);
+    }
+
+    // 当前格局
+    .X-SecondHandHome-type-now {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 0 1.5rem 0;
+
+        .X-SecondHandHome-type-now-picture {
+            width: 7rem;
+
+            img {
+                width: 6rem;
+                height: 5.5rem;
+            }
+        }
+
+        .X-SecondHandHome-type-now-contents {
+            width: 14rem;
+            height: 5.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            >div {
+                height: 1.5rem;
+                line-height: 1.5rem;
+            }
+
+            .X-SecondHandHome-type-now-title {
+                width: 14rem;
+                font-size: 1.2rem;
+                overflow: hidden;
+                // 规定段落中的文本不进行换行
+                white-space: nowrap;
+                // 多行文本溢出省略号
+                text-overflow: ellipsis;
+            }
+
+            .X-SecondHandHome-type-now-introduce {
+                font-size: .9rem;
+                color: rgb(46, 45, 45);
+            }
+
+            .X-SecondHandHome-type-now-lable {
+                width: 14rem;
+                display: flex;
+                overflow: hidden;
+                // 规定段落中的文本不进行换行
+                white-space: nowrap;
+                // 多行文本溢出省略号
+                text-overflow: ellipsis;
+
+                >span {
+                    margin-right: .5rem;
+                    font-size: .9rem;
+                    height: 1.4rem;
+                    line-height: 1.4rem;
+                    padding-left: 0.35rem;
+                    padding-right: 0.35rem;
+                    background-color: rgb(244, 247, 249);
+                    color: rgb(141, 173, 198);
+                }
+            }
+        }
+    }
+
+    hr {
+        width: 90%;
+        margin-left: 5%;
+        background-color: rgb(219, 75, 61);
+    }
+}
+
+// 对口学校
+.X-SecondHandHome-school {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 1rem;
+    border: .1rem solid rgb(229, 229, 229);
+    background-color: #fff;
+
+    >div,
+    >p {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    // 对口学校 标题
+    .X-SecondHandHome-school-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        height: 4rem;
+        line-height: 4rem;
+        border-bottom: .01rem solid rgb(186, 182, 179);
+    }
+
+    p {
+        width: 90%;
+        margin-left: 5%;
+        height: 3rem;
+        line-height: 3rem;
+        border-bottom: .01rem solid rgb(186, 182, 179);
+        display: flex;
+        font-size: 1rem;
+
+        span {
+            color: rgb(143, 140, 138);
+        }
+    }
+
+    // 更多
+    a {
+        p {
+            border: none;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+            color: rgb(143, 140, 138);
+        }
+    }
+
+}
+
+// 位置及周边
+.X-SecondHandHome-location {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 1rem;
+    border: .1rem solid rgb(229, 229, 229);
+    background-color: #fff;
+
+    >div {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    // 位置及周边 标题
+    .X-SecondHandHome-location-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        height: 4rem;
+        line-height: 4rem;
+        border-bottom: .01rem solid rgb(186, 182, 179);
+    }
+
+    .X-SecondHandHome-location-picture {
+        box-sizing: border-box;
+        width: 90%;
+        height: 13rem;
+        margin-top: 2rem;
+
+        img {
+            width: 100%;
+            height: 11rem;
+        }
+    }
+}
+
+// 推荐房源
+.X-SecondHandHome-recommend {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 1rem;
+    border: .1rem solid rgb(229, 229, 229);
+    background-color: #fff;
+
+    >div {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    // 推荐房源 标题
+    .X-SecondHandHome-recommend-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        height: 4rem;
+        line-height: 4rem;
+        border-bottom: .01rem solid rgb(186, 182, 179);
+    }
+
+    // 推荐房源 内容
+    .X-SecondHandHome-recommend-contents {
+        box-sizing: border-box;
+        background-color: #fff;
+        margin-bottom: .6rem;
+        border-bottom: .1rem solid rgb(229, 229, 229);
+
+        .X-SecondHandHome-recommend-content {
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 1.5rem 0 1.5rem 0;
+
+            .X-SecondHandHome-recommend-picture-and-content {
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+
+                .X-SecondHandHome-recommend-picture {
+                    width: 40%;
+
+                    img {
+                        width: 8rem;
+                        height: 7.5rem;
+                    }
+                }
+            }
+
+            .X-SecondHandHome-recommend-introduce {
+                width: 59.5%;
+                height: 7.5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                a {
+                    p {
+                        width: 100%;
+                        height: 1.8rem;
+                        line-height: 1.8rem;
+                        font-size: 1.3rem;
+                        overflow: hidden;
+                        // 规定段落中的文本不进行换行
+                        white-space: nowrap;
+                        // 多行文本溢出省略号
+                        text-overflow: ellipsis;
+                    }
+                }
+
+                >p:nth-of-type(1) {
+                    height: 1.7rem;
+                    line-height: 1.7rem;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .X-SecondHandHome-recommend-construction {
+                        font-size: .9rem;
+                        font-weight: 550;
+                    }
+
+                    .X-SecondHandHome-recommend-prices {
+                        font-size: 1rem;
+                        font-weight: 600;
+                        color: rgb(255, 138, 0);
+                    }
+                }
+
+                >p:nth-of-type(2) {
+                    height: 1.7rem;
+                    line-height: 1.7rem;
+                    display: flex;
+                    justify-content: space-between;
+
+                    >span {
+                        color: rgb(129, 129, 129);
+                    }
+
+                    .X-SecondHandHome-recommend-location {
+                        font-size: .9rem;
+                    }
+
+                    .X-SecondHandHome-recommend-centiare-prices {
+                        font-size: .92rem;
+                    }
+                }
+
+                >.X-SecondHandHome-recommend-label {
+                    width: 12rem;
+                    height: 1.7rem;
+                    line-height: 1.7rem;
+                    display: flex;
+                    overflow: hidden;
+                    // 规定段落中的文本不进行换行
+                    white-space: nowrap;
+                    // 多行文本溢出省略号
+                    text-overflow: ellipsis;
+
+                    >span {
+                        margin-right: .5rem;
+                        font-size: .85rem;
+                        height: 1.3rem;
+                        line-height: 1.3rem;
+                        padding-left: 0.3rem;
+                        padding-right: 0.3rem;
+                        background-color: rgb(244, 247, 249);
+                        color: rgb(141, 173, 198);
+                    }
+                }
+            }
+
+            .X-SecondHandHome-recommend-reason {
+                width: 100%;
+                height: 2rem;
+                line-height: 2rem;
+                position: relative;
+                margin-top: 0.7rem;
+                bottom: 0.16rem;
+                left: 0;
+                background: #f2f2f2;
+                width: 100%;
+                padding: 0.1rem;
+
+                span {
+                    position: absolute;
+                    top: -1.5rem;
+                    left: 0;
+                    width: 0;
+                    height: 0;
+                    border-top: 0.8rem solid transparent;
+                    border-right: 0.8rem solid transparent;
+                    border-bottom: 0.8rem solid #f2f2f2;
+                    border-left: 0.8rem solid transparent;
+                    z-index: 10;
+                    margin-left: 1rem;
+                }
+            }
+        }
+
+        hr {
+            width: 100%;
+        }
+    }
+
+    // 更多
+    a {
+        p {
+            border: none;
+            height: 3rem;
+            line-height: 2.5rem;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+            color: rgb(143, 140, 138);
+        }
+    }
+}
+
+// 联系
+.X-SecondHandHome-connection {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+
+    >a {
+        width: 40%;
+        height: 3rem;
+        margin-top: 1rem;
+
+        div {
+            color: #fff;
+            background-color: rgb(255, 138, 0);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+
+    >div {
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
