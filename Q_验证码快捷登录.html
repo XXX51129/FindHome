@@ -41,7 +41,7 @@
                         <input type="text" id="shouji" placeholder="请输入手机号码" />
                         <a id="code" href="#">发送验证码</a>
                     </li>
-                    <li><input type="text" placeholder="请输入短信中的验证码" /></li>
+                    <li><input type="text" id="yanzheng" placeholder="请输入短信中的验证码" /></li>
                 </ul>
                 <input class="registerBtn" type="submit" value="验证并登录" />
                 <div class="tiShi">
@@ -54,22 +54,5 @@
 </body>
 
 </html>
-<script>
-    var  get  =  document.getElementById('code'); 
-    var  i = 60;
-    console.log(get);    
-    get.onclick  =   function ()  {        
-        var  times  =  setInterval(function ()  {            
-            i--;            
-            get.innerHTML  =  i  +  '秒后重新获取';            
-            get.style.color  =  "#ccc"             // console.log(num);                                                                                                                                                                                                                                                                                                                                                                                                
-                            
-            if  (i  ==  50)  {                
-                alert("666666")            
-            } 
-            else  if  (i  ==  0)  {                
-                clearInterval(times);            
-            }        
-        },  1000);    
-    }
-</script>
+
+<script src="./js/Q_验证码快捷登录.js"></script>
