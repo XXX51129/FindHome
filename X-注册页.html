@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/X-reset.css">
+    <link rel="stylesheet" href="./css/X-header&footer.css">
+    <link rel="stylesheet" href="./css/X-注册页.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="X-header">
+        <a href="">
+            <div class="X-logo"></div>
+        </a>
+        <div class="X-header-right">
+            <a href="">
+                <div class="X-my"></div>
+            </a>
+            <a href="">
+                <div class="X-download"></div>
+            </a>
+        </div>
+    </div>
+    <!-- 注册表单 -->
+    <div class="X-registet">
+        <!-- 链接 -->
+        <div class="X-registet-link">
+            <a href=""><span>首页</span></a>
+            &nbsp;>&nbsp;
+            <a href=""><span>我的</span></a>
+            &nbsp;>&nbsp;
+            <a href=""><span>注册</span></a>
+        </div>
+        <div></div>
+        <!-- 请输入手机号码 -->
+        <div class="X-registet-phone">
+            <input type="text" placeholder="请输入手机号码" id="phone" class="X-input input1">
+            <div class="auth-code" id="getNumCode">发送验证码</div>
+        </div>
+        <div></div>
+        <!-- 验证码 -->
+        <div class="X-registet-numCode">
+            <input type="text" placeholder="请输入短信中的验证码" id="numCode" class="X-input input2">
+        </div>
+        <div></div>
+        <!-- 新密码 -->
+        <div class="X-registet-numCode">
+            <input type="password" placeholder="请输入新密码" id="psw" class="X-input input2">
+        </div>
+        <div></div>
+    </div>
+    <button id="promptlyRegister" class="X-registet-button">立即注册</button>
+</body>
+<!-- 动态改变字体大小 -->
+<script src="./js/动态改变字体大小.js"></script>
+<script src="./js/X-注册页.js"></script>
+</html>

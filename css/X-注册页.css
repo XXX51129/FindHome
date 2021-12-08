@@ -1,0 +1,61 @@
+body {
+  background-color: #f5f5f5;
+}
+.X-registet {
+  background-color: #fff;
+}
+.X-registet > div:nth-of-type(odd) {
+  width: 90%;
+  margin-left: 5%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.X-registet > div:nth-of-type(even) {
+  width: 100%;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+.X-registet .X-registet-link {
+  justify-content: start !important;
+}
+.X-registet .X-registet-link a {
+  font-size: 0.9rem;
+}
+.X-registet .X-registet-link a:nth-of-type(1) {
+  font-weight: 600;
+}
+.X-registet .X-registet-phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.X-registet .X-registet-phone .input1 {
+  width: 60%;
+}
+.X-registet .X-registet-phone #getNumCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 2rem;
+  box-sizing: border-box;
+  border: 0.1rem solid #e5e5e5;
+}
+.X-registet .X-input {
+  width: 90%;
+  border: none;
+  font-size: 1rem;
+}
+.X-registet .X-input:focus {
+  outline: none;
+}
+.X-registet-button {
+  border: none;
+  background-color: #ff8a00;
+  color: #fff;
+  width: 90%;
+  height: 3rem;
+  font-size: 1.5rem;
+  margin: 1rem 5% 1rem 5%;
+}

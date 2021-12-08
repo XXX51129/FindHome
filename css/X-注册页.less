@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+// 注册表单
+.X-registet {
+    background-color: #fff;
+
+    >div:nth-of-type(odd) {
+        width: 90%;
+        margin-left: 5%;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    >div:nth-of-type(even) {
+        width: 100%;
+        border-bottom: .1rem solid rgb(229, 229, 229);
+    }
+
+    // 链接
+    .X-registet-link {
+        justify-content: start !important;
+
+        a {
+            font-size: .9rem;
+        }
+
+        a:nth-of-type(1) {
+            font-weight: 600;
+        }
+    }
+
+    // 请输入手机号码
+    .X-registet-phone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .input1 {
+            width: 60%;
+        }
+
+        #getNumCode {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            height: 2rem;
+            box-sizing: border-box;
+            border: .1rem solid rgb(229, 229, 229);
+        }
+    }
+
+    .X-input {
+        width: 90%;
+        border: none;
+        font-size: 1rem;
+    }
+
+    .X-input:focus {
+        outline: none;
+    }
+}
+
+.X-registet-button{
+    border: none;
+    background-color: rgb(255,138,0);
+    color: #fff;
+    width: 90%;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin: 1rem 5% 1rem 5%;
+}
