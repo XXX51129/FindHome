@@ -33,35 +33,18 @@
         <form action="#">
             <ul>
                 <li class="mima">
-                    <input type="text" placeholder="请输入手机号码" />
+                    <input type="text" id="shouji" placeholder="请输入手机号码" />
                     <a id="code" href="#">发送验证码</a>
                 </li>
-                <li><input type="text" placeholder="请输入短信中的验证码" /></li>
-                <li><input type="text" placeholder="请输入新密码" /></li>
-                <li><input type="text" placeholder="请输入确认密码" /></li>
+                <li><input type="text" id="yanzheng" placeholder="请输入短信中的验证码" /></li>
+                <li><input type="text" id="xin" placeholder="请输入新密码" /></li>
+                <li><input type="text" id="queding" placeholder="请输入确认密码" /></li>
             </ul>
-            <input class="registerBtn" type="submit" value="提交" />
+            <input class="registerBtn" id="registerBtn" type="submit" value="提交" />
         </form>
     </section>
 </body>
 
 </html>
-<script>
-    //验证码60秒重新发送
-    var min = 60;
-    var time;
-    $('#code').tap(function() {
-        clearInterval(time);
-        time = setInterval(fn, 1000);
-    });
-
-    function fn() {
-        min = --min;
-        if (min > 0) {
-            $('#code').html('（' + min + '秒）重发');
-        } else {
-            min = 60;
-            $('#code').html('发送验证码');
-        }
-    }
-</script>
+<script src="./js/Q_验证码快捷登录.js"></script>
+<script src="./js/Q_密码验证.js"></script>
