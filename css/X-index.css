@@ -209,3 +209,43 @@ nav a > div img {
   font-size: 1rem;
   color: #525252;
 }
+.X-free-download {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 4rem;
+  background-color: rgba(80, 76, 76, 0.15);
+}
+.X-free-download img {
+  width: 2rem;
+  height: 2rem;
+}
+.X-free-download .X-APP-introduce {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.X-free-download .X-APP-introduce .X-app-logo {
+  width: 3rem;
+  height: 3rem;
+}
+.X-free-download .X-APP-introduce .X-app-introduce {
+  width: 48%;
+}
+.X-free-download .X-APP-introduce .X-app-introduce p:nth-of-type(1) {
+  font-size: 1.5rem;
+}
+.X-free-download .X-APP-introduce .X-free-app-download {
+  width: 30%;
+  height: 4rem;
+  background-color: #ff8a00;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
