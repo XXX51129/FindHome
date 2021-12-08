@@ -1,0 +1,471 @@
+body {
+  background-color: #f5f5f5;
+}
+.X-SecondHandHome-show {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  border: 0.1rem solid #e5e5e5;
+  border-top: none;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-picture {
+  width: 100%;
+  height: 16rem;
+  position: relative;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-picture img {
+  width: 100%;
+  height: 16rem;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-picture span {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  width: 2.7rem;
+  height: 1.2rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  bottom: 0.5rem;
+  right: 0.3rem;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 1rem;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents > div {
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents .X-SecondHandHome-show-title {
+  height: 4rem;
+  line-height: 2rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents .X-SecondHandHome-show-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents .X-SecondHandHome-show-price span {
+  font-size: 1.1rem;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents .X-SecondHandHome-show-price span .X-SecondHandHome-show-total-price {
+  font-weight: 600;
+  color: #db4b3d;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents .X-SecondHandHome-show-price .X-SecondHandHome-show-relation {
+  box-sizing: border-box;
+  width: 1rem;
+  height: 1.4rem;
+  background: url(../image/SecondHandList/phone.png) no-repeat;
+  background-size: 1rem 1.4rem;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents .X-SecondHandHome-show-time {
+  color: #bab6b3;
+  font-size: 1rem;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents .X-SecondHandHome-show-label {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.X-SecondHandHome-show .X-SecondHandHome-show-contents .X-SecondHandHome-show-label > span {
+  margin-right: 0.5rem;
+  font-size: 0.85rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color: #dee9f0;
+  color: #889caf;
+}
+.X-SecondHandHome-particulars {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 1rem;
+  border: 0.1rem solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+}
+.X-SecondHandHome-particulars p {
+  width: 90%;
+  margin-left: 5%;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 0.01rem solid #bab6b3;
+  display: flex;
+  font-size: 1rem;
+}
+.X-SecondHandHome-particulars p span {
+  width: 50%;
+}
+.X-SecondHandHome-particulars a p {
+  border: none;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  color: #8f8c8a;
+}
+.X-SecondHandHome-feature {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.1rem solid #e5e5e5;
+  background-color: #fff;
+}
+.X-SecondHandHome-feature > div {
+  width: 90%;
+  margin-left: 5%;
+  border-bottom: 0.01rem solid #bab6b3;
+}
+.X-SecondHandHome-feature .X-SecondHandHome-feature-title {
+  font-size: 1.5rem;
+  height: 4rem;
+  line-height: 4rem;
+  color: #db4b3d;
+}
+.X-SecondHandHome-feature .X-SecondHandHome-feature-contents {
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.X-SecondHandHome-feature a > .X-more-feature {
+  height: 3rem;
+  line-height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #8f8c8a;
+}
+.X-SecondHandHome-type {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.1rem solid #e5e5e5;
+  background-color: #fff;
+}
+.X-SecondHandHome-type > div {
+  width: 90%;
+  margin-left: 5%;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-title {
+  font-size: 1.5rem;
+  height: 4rem;
+  line-height: 4rem;
+  color: #db4b3d;
+  border-bottom: 0.01rem solid #bab6b3;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0 1.5rem 0;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now .X-SecondHandHome-type-now-picture {
+  width: 7rem;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now .X-SecondHandHome-type-now-picture img {
+  width: 6rem;
+  height: 5.5rem;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now .X-SecondHandHome-type-now-contents {
+  width: 14rem;
+  height: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now .X-SecondHandHome-type-now-contents > div {
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now .X-SecondHandHome-type-now-contents .X-SecondHandHome-type-now-title {
+  width: 14rem;
+  font-size: 1.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now .X-SecondHandHome-type-now-contents .X-SecondHandHome-type-now-introduce {
+  font-size: 0.9rem;
+  color: #2e2d2d;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now .X-SecondHandHome-type-now-contents .X-SecondHandHome-type-now-lable {
+  width: 14rem;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.X-SecondHandHome-type .X-SecondHandHome-type-now .X-SecondHandHome-type-now-contents .X-SecondHandHome-type-now-lable > span {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+  background-color: #f4f7f9;
+  color: #8dadc6;
+}
+.X-SecondHandHome-type hr {
+  width: 90%;
+  margin-left: 5%;
+  background-color: #db4b3d;
+}
+.X-SecondHandHome-school {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.1rem solid #e5e5e5;
+  background-color: #fff;
+}
+.X-SecondHandHome-school > div,
+.X-SecondHandHome-school > p {
+  width: 90%;
+  margin-left: 5%;
+}
+.X-SecondHandHome-school .X-SecondHandHome-school-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 0.01rem solid #bab6b3;
+}
+.X-SecondHandHome-school p {
+  width: 90%;
+  margin-left: 5%;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 0.01rem solid #bab6b3;
+  display: flex;
+  font-size: 1rem;
+}
+.X-SecondHandHome-school p span {
+  color: #8f8c8a;
+}
+.X-SecondHandHome-school a p {
+  border: none;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  color: #8f8c8a;
+}
+.X-SecondHandHome-location {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.1rem solid #e5e5e5;
+  background-color: #fff;
+}
+.X-SecondHandHome-location > div {
+  width: 90%;
+  margin-left: 5%;
+}
+.X-SecondHandHome-location .X-SecondHandHome-location-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 0.01rem solid #bab6b3;
+}
+.X-SecondHandHome-location .X-SecondHandHome-location-picture {
+  box-sizing: border-box;
+  width: 90%;
+  height: 13rem;
+  margin-top: 2rem;
+}
+.X-SecondHandHome-location .X-SecondHandHome-location-picture img {
+  width: 100%;
+  height: 11rem;
+}
+.X-SecondHandHome-recommend {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.1rem solid #e5e5e5;
+  background-color: #fff;
+}
+.X-SecondHandHome-recommend > div {
+  width: 90%;
+  margin-left: 5%;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 0.01rem solid #bab6b3;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents {
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-bottom: 0.6rem;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5rem 0 1.5rem 0;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-picture-and-content {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-picture-and-content .X-SecondHandHome-recommend-picture {
+  width: 40%;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-picture-and-content .X-SecondHandHome-recommend-picture img {
+  width: 8rem;
+  height: 7.5rem;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce {
+  width: 59.5%;
+  height: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce a p {
+  width: 100%;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > p:nth-of-type(1) {
+  height: 1.7rem;
+  line-height: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > p:nth-of-type(1) .X-SecondHandHome-recommend-construction {
+  font-size: 0.9rem;
+  font-weight: 550;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > p:nth-of-type(1) .X-SecondHandHome-recommend-prices {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ff8a00;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > p:nth-of-type(2) {
+  height: 1.7rem;
+  line-height: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > p:nth-of-type(2) > span {
+  color: #818181;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > p:nth-of-type(2) .X-SecondHandHome-recommend-location {
+  font-size: 0.9rem;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > p:nth-of-type(2) .X-SecondHandHome-recommend-centiare-prices {
+  font-size: 0.92rem;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > .X-SecondHandHome-recommend-label {
+  width: 12rem;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-introduce > .X-SecondHandHome-recommend-label > span {
+  margin-right: 0.5rem;
+  font-size: 0.85rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  background-color: #f4f7f9;
+  color: #8dadc6;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-reason {
+  height: 2rem;
+  line-height: 2rem;
+  position: relative;
+  margin-top: 0.7rem;
+  bottom: 0.16rem;
+  left: 0;
+  background: #f2f2f2;
+  width: 100%;
+  padding: 0.1rem;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents .X-SecondHandHome-recommend-content .X-SecondHandHome-recommend-reason span {
+  position: absolute;
+  top: -1.5rem;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 0.8rem solid transparent;
+  border-right: 0.8rem solid transparent;
+  border-bottom: 0.8rem solid #f2f2f2;
+  border-left: 0.8rem solid transparent;
+  z-index: 10;
+  margin-left: 1rem;
+}
+.X-SecondHandHome-recommend .X-SecondHandHome-recommend-contents hr {
+  width: 100%;
+}
+.X-SecondHandHome-recommend a p {
+  border: none;
+  height: 3rem;
+  line-height: 2.5rem;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  color: #8f8c8a;
+}
+.X-SecondHandHome-connection {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+}
+.X-SecondHandHome-connection > a {
+  width: 40%;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.X-SecondHandHome-connection > a div {
+  color: #fff;
+  background-color: #ff8a00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.X-SecondHandHome-connection > a div img {
+  width: 2rem;
+  height: 2rem;
+}
+.X-SecondHandHome-connection > div {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.X-SecondHandHome-connection > div img {
+  width: 2rem;
+  height: 2rem;
+}

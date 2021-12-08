@@ -1,0 +1,253 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+// 房子简介
+.X-rentalList-show {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    border: .1rem solid rgb(229, 229, 229);
+    border-top: none;
+
+    // 标签
+    .X-rentalList-show-link {
+        display: flex;
+        height: 2.5rem;
+        line-height: 2.5rem;
+
+        a {
+            font-size: .9rem;
+        }
+
+        a:nth-of-type(1) {
+            font-weight: 600;
+        }
+    }
+
+    // 房间展示 图片
+    .X-rentalList-show-picture {
+        width: 100%;
+        height: 16rem;
+        position: relative;
+
+        a {
+            img {
+                width: 100%;
+                height: 16rem;
+            }
+        }
+
+        span {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.4);
+            text-align: center;
+            color: #fff;
+            z-index: 2;
+            width: 5rem;
+            height: 2rem;
+            line-height: 2rem;
+            border-radius: .4rem;
+            font-size: 1.1rem;
+            bottom: 0.5rem;
+            right: 0.3rem;
+        }
+
+    }
+
+    // 房间信息 标题
+    .X-rentalList-show-text {
+        background-color: rgb(249, 249, 249);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 5rem;
+        border-bottom: .05rem solid rgb(175, 171, 171);
+        box-sizing: border-box;
+
+        >div {
+            width: 80%;
+            height: 5rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            border-right: .05rem solid rgb(175, 171, 171);
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        a {
+            width: 19%;
+
+            div {
+                font-size: 1rem;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                img {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+            }
+        }
+    }
+
+    // 房间信息 1
+    .X-rentalList-show-condition1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(245, 245, 245);
+        height: 5rem;
+        box-sizing: border-box;
+
+        li {
+            height: 2.7rem;
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            font-style: 1rem;
+            border-right: .05rem solid rgb(207, 203, 203);
+            box-sizing: border-box;
+
+            >div:nth-of-type(2) {
+                color: rgb(255, 138, 0);
+            }
+        }
+    }
+
+    // 房间信息 2
+    .X-rentalList-show-condition2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+
+        li {
+            width: 90%;
+            height: 3.5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 1rem;
+            border-bottom: .05rem solid rgb(207, 203, 203);
+
+            >div {
+                width: 40%;
+            }
+        }
+
+        li:nth-of-last-type(1) {
+            border: none;
+        }
+    }
+}
+
+// 经纪人评房
+.X-rentalList-manside,
+.X-public-div {
+    box-sizing: border-box;
+    width: 95%;
+    background-color: #fff;
+    border: .1rem solid rgb(229, 229, 229);
+    margin-left: 2.5%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    // 经纪人评房 标题
+    .X-public-title {
+        width: 90%;
+        height: 3rem;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: rgb(255, 138, 0);
+
+        img {
+            width: 1rem;
+            height: 2rem;
+        }
+    }
+
+    >div:nth-of-type(2) {
+        width: 100%;
+        border-bottom: .1rem solid rgb(229, 229, 229);
+    }
+
+    // 经纪人评房 内容
+    .X-public-text {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        margin: 0.5rem 5% 0.5rem 5%;
+    }
+}
+
+// 位置及周边 内容
+.X-rentalList-location-picture {
+    width: 90%;
+    margin: 1rem 5% 1rem 5%;
+
+    img {
+        width: 100%;
+        height: 10rem;
+    }
+}
+
+// 小区成交历史 内容
+.X-rentalList-recond-text {
+    width: 90%;
+    margin: 1rem 5% 1rem 5%;
+
+    p {
+        height: 2rem;
+
+        span {
+            color: rgb(255, 138, 0);
+        }
+    }
+}
+
+// 联系
+.X-rentalList-contact {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    >img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    >div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    >a {
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+}
